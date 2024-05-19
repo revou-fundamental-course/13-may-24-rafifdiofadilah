@@ -1,0 +1,54 @@
+.switch{
+       font-size: 20px;
+       background-color: rgb(182, 177, 175);
+       border-radius: 100px;
+       padding: 10px;
+       align-content: center;
+       margin: 10px;
+       text-align: center;
+
+}                          
+
+.switch:hover{
+   background-color: rgb(22, 175, 221);
+}
+input{
+       width: 100%;
+}
+.rumus{
+       background-color: rgb(189, 188, 188);
+       padding: 10px;
+       margin: 10px;
+      border-radius: 30px;
+       align-items: center;
+       display: block;
+      
+       justify-content: center;
+       
+      
+}
+
+.rumus:hover{
+   background-color: rgb(22, 175, 221);
+}
+.hitung{
+       padding: 20px;
+       margin: 20px;
+}
+.start{
+       background-color: ;
+}
+.image{
+     
+       padding: 15px;
+} .reset:hover{
+       background-color: red;
+       text-align: right;
+}
+.kirim:hover {
+       background-color: green;
+}
+h1{
+     
+       text-align: center;
+}
