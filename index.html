@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rumus</title>
+  <link rel="stylesheet" href="syle.css">
+ 
+</head>
+<body>
+        <h1 class="start" > My calculator</h1>
+
+        <section> 
+            <h4 class="section-content" >  heii guyss selamat datang di mini the project kalkulator segitiga</h4>
+         <h6 >Web Apps sedehana untuk menghitung luas segitiga
+         </h6>
+        </section>
+ <hr>
+       <div class="container" border-="100pxs" padding="10px" cellspacing="1px" >
+        <p class="switch"><a href="keliling.html">switch ke keliling segitiga</a> </p>
+
+        <h3  align="center"> luas segitiga</h3>>
+         <div class="image">
+           
+            <img src="segitiga.jpg" alt="" srcset="" width="300px" padding="0px" align="center" >
+         </div>
+
+         <div class="rumus">
+            <h3 class="rumus-content" align="center"> rumus luas segitiga</h3>
+         <span align="center"> <h3> L = 1/2 x a x t</h3></span>
+         
+
+         <details class="keterangan" align="center">
+            <summary>keterangan rumus :</summary>
+            <li>  L = luas segitiga (cm<sup>2</sup>)</li>
+            <li> a = alas segitiga (cm)</li>
+            <li>  t = tinggi segitiga (cm)</li>
+         </details>
+       </div></div>
+  <hr>
+         <div class="hitung">
+            <h1>hitung luas segitiga</h1>
+            Alas : 
+            <input type="text" name="alas" id="angka1"> 
+            Tinggi : 
+            <input type="text" name="tinggi" id="angka2"> <br> 
+        <p> diketahui <br> alas dan tinggi belum ada dan carilah menggunakan calculator tersebut</p>
+    
+            
+        <button  onclick="kirim()" name="kirim">hitung</button>
+        <button onclick="reset()" class="reset" align="right" name="reset">reset</button>
+            
+         <p>jawaban =</p>
+        
+        <p id="hasil"></p>
+        <hr>
+       
+            <script src="script.js"></script>
+     </div>
+
+         
+</body>
+ 

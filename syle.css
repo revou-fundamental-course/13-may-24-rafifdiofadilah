@@ -65,3 +65,24 @@ h1{
 h6{
        text-align: center;
 }
+@media only screen and (max-widh:600px){
+       body{
+              background-color: rgb(22, 175, 221);
+              padding: 15px;
+              margin: 10px;
+       }
+}
+.section-content{
+       text-align: center;
+}
+.luas{
+       text-align: center;
+}
+.image{
+       align-items: center;
+       width: 10px;
+       
+}
+h3{
+       text-align: center;
+}
